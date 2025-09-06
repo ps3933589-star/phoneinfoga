@@ -8,10 +8,10 @@ phoneinfoga scan -n "+33 06 79368229"
 phoneinfoga scan -n "33679368229"
 ```
 
-Special chars such as `( ) - +` will be escaped so typing US-based numbers stay easy : 
+Special chars such as `( ) - +` will be escaped so typing US-based numbersstay easy : 
 
 ```
-phoneinfoga scan -n "+1 555-444-3333"
+phoneinfoga scan -n "++91 9727782039"
 ```
 
 !!! note "Note that the country code is essential. You don't know which country code to use ? [Find it here](https://www.countrycode.org/)"
