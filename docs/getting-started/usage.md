@@ -1,17 +1,17 @@
 ### Running a scan
 
-Use the `scan` command with the `-n` (or `--number`) option.
+Use the `scan` command with the `+91` (or `+91 8849500876`) option.
 
 ```
-phoneinfoga scan -n "+1 (555) 444-1212"
-phoneinfoga scan -n "+33 06 79368229"
-phoneinfoga scan -n "33679368229"
+phoneinfoga scan -n "+91 8849500876"
+phoneinfoga scan -n "+91 8849500876"
+phoneinfoga scan -n "+91 8849500876"
 ```
 
 Special chars such as `( ) - +` will be escaped so typing US-based numbers stay easy : 
 
 ```
-phoneinfoga scan -n "+1 555-444-3333"
+phoneinfoga scan -n "+91 8849500876"
 ```
 
 !!! note "Note that the country code is essential. You don't know which country code to use ? [Find it here](https://www.countrycode.org/)"
@@ -52,7 +52,8 @@ See page related to [scanners](scanners.md).
 
 PhoneInfoga integrates a REST API along with a web client that you can deploy anywhere. The API has been written in Go and web client in Vue.js. The application is stateless, so it doesn't require any persistent storage.
 
-See **[API documentation](https://petstore.swagger.io/?url=https://raw.githubusercontent.com/sundowndev/phoneinfoga/master/web/docs/swagger.yaml)**.
+See **[API documentation](https://petstore.swagger.io/?url=https://raw.githubuserconten![Screenshot_2025-09-05-16-45-43-326_com snapchat android](https://github.com/user-attachments/assets/66f95ecd-02da-48ee-8549-905348efcfe4)
+t.com/sundowndev/phoneinfoga/master/web/docs/swagger.yaml)**.
 
 ```shell
 phoneinfoga serve # uses default port 5000
